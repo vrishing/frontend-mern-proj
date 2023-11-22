@@ -1,0 +1,158 @@
+.contact{
+  min-height: 70vh;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  flex-direction: row;
+}
+.name{
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #797676;
+  margin: 13px 0px;
+  font-family: Dosis;
+}
+
+.name::placeholder{
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.form{
+  width: 30%;
+  margin-left: 5%;
+}
+.title2{
+  font-family: Chelsea;
+  font-size: 40px
+}
+.submit{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.map{
+  width: 45%;
+  margin-left: 10%;
+}
+
+.contact .map h2{
+  font-size: 2rem;
+  color: #feffff;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.contact .map iframe{
+  width: 100%;
+}
+.title{
+  font-family: Chelsea !important;
+  font-size: 40px !important;
+  text-align: center !important;
+  color: black !important;
+  margin: 0;
+  padding: 30px 0px 30px 0px;
+}
+
+.stars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.nameInput {
+  margin-top: 1%;
+  font-family: Dosis;
+  font-size: 20px;
+  width: 40%;
+  margin-bottom: 2%;
+  padding: 5px;
+  color: #000;
+  position: relative;
+}
+
+.textarea {
+  font-family: Dosis;
+  font-size: 20px;
+  width: 40%;
+  margin-bottom: 2%;
+  padding: 5px;
+  color: #000;
+  position: relative;
+}
+.rateus{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.button {
+  font-family: Dosis;
+  display:list-item;
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  width: 100%;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.messages-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.message {
+  display: inline-block;
+  width: 300px; /* Set a fixed width for each message box */
+  margin-right: 10px; /* Add spacing between message boxes */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  padding: 20px;
+  height: 150px;
+  text-align: center;
+  
+}
+
+.message:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url('../../fonts/Dosis.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Chelsea';
+  src: url('../../fonts/Chelsea.ttf') format('truetype');
+}
+.main {
+  position: relative;
+  text-align: center;
+  height: 120vh;
+  width: 100%;
+}
+
+.maindiv {
+  max-width: 800px; /* Set a maximum width for the container */
+  margin: auto; /* Center the container horizontally */
+  padding: 10%; /* Set padding as a percentage for responsive design */
+  height: 300px; /* Set the height to 100% of the viewport height */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url('../assets/'); */
+}
+
