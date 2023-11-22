@@ -20,7 +20,7 @@ const ReservationForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/reservations', {
+      const response = await fetch('https://mern-wnei.onrender.com/api/reservations', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
