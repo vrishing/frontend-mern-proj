@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './CustomerReview.css'
-import { FaStar } from 'react-icons/fa';
 
 
 
@@ -63,22 +62,7 @@ function CustomerReview() {
 <div className='rateus'>
         <h1 className='title'>Rate Us</h1>
         <div className='stars-container'>
-        <div className="stars">
-          {Array(5).fill(0).map((_, index) => (
-            <FaStar
-              key={index}
-              size={40}
-              onClick={() => setCurrentValue(index + 1)}
-              onMouseOver={() => setHoverValue(index + 1)}
-              onMouseLeave={() => setHoverValue(undefined)}
-              color={hoverValue || currentValue > index ? 'orange' : 'grey'}
-              style={{
-                marginRight: 10,
-                cursor: 'pointer',
-              }}
-            />
-          ))}
-        </div>
+        
         </div>
         <input
           type="text"
